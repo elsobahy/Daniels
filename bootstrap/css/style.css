@@ -1,0 +1,1100 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --main-color: #f7f7f7;
+}
+
+.home {
+    background-image: url(img/img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+  .nav-link{
+    position: relative;
+}
+  .nav-link.active::after{
+    content: " ";
+    width: 60%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+
+}
+/* .nave:hover{
+    background-color:rgba(0, 0, 0, 0.388);
+} */
+.back-top{
+    bottom: 20px;
+    right: 15px;
+}
+
+.home .layer {
+    background-color: rgba(0, 0, 0, 0.597);
+    height: 100vh;
+}
+
+.home h5 {
+    font-size: 50px;
+    font-weight: 800;
+
+}
+
+.home h1::after {
+    content: " ";
+    animation: typing 5s infinite alternate;
+    
+}
+
+@keyframes typing {
+    0.787% {
+        content: " L|";
+    }
+
+    1.574% {
+        content: " La|";
+    }
+
+    2.361% {
+        content: "Lar|";
+    }
+
+    4.148% {
+        content: " Larr|";
+    }
+
+    6.935% {
+        content: " Larry|";
+    }
+
+    8.509% {
+        content: "Larry  D|";
+    }
+
+    10.296% {
+        content: " Larry Da|";
+    }
+
+    12.083% {
+        content: "Larry Dan|";
+    }
+
+    14.87% {
+        content: " Larry Dani|";
+    }
+
+    16.657% {
+        content: " Larry Danie|";
+    }
+
+    18.444% {
+        content: " Larry Daniel|";
+    }
+
+    20.231% {
+        content: " Larry Daniels|";
+    }
+
+    22.018% {
+        content: " Larry Daniels";
+    }
+
+    24.805% {
+        content: "Larry Daniel|";
+    }
+
+    26.592% {
+        content: " Larry Danie|";
+    }
+
+    28.379% {
+        content: " Larry Dani|";
+    }
+
+    30.166% {
+        content: " Larry Dan|";
+    }
+
+    32.953% {
+        content: " Larry Da|";
+    }
+
+    34.74% {
+        content: " Larry D|";
+    }
+
+    36.527% {
+        content: " Larry |";
+    }
+
+    38.314% {
+        content: "Larry|";
+    }
+
+    38.101% {
+        content: " Larr|";
+    }
+
+    40.888% {
+        content: " Lar|";
+    }
+
+    41.675% {
+        content: " La|";
+    }
+
+    42.462% {
+        content: " L|";
+    }
+
+    43.249% {
+        content: " |";
+    }
+
+    44.693% {
+        content: " |";
+    }
+
+    45.48% {
+        content: " D|";
+    }
+
+    46.267% {
+        content: " De|";
+    }
+
+    48.054% {
+        content: " Dev|";
+    }
+
+    50.841% {
+        content: " Deve|";
+    }
+
+    52.628% {
+        content: " Devel|";
+    }
+
+    54.415% {
+        content: " Develo|";
+    }
+
+    56.202% {
+        content: " Develop|";
+    }
+
+    58.989% {
+        content: " Develope|";
+    }
+
+    60.776% {
+        content: " Developer|";
+    }
+
+    62.563% {
+        content: " Developer";
+    }
+
+    64.35% {
+        content: " Develope|";
+    }
+
+    66.137% {
+        content: " Develop|";
+    }
+
+    68.924% {
+        content: " Develo|";
+    }
+
+    70.711% {
+        content: " Devel|";
+    }
+
+    71.498% {
+        content: " Deve|";
+    }
+
+    71.285% {
+        content: " Dev|";
+    }
+
+    72.072% {
+        content: " De|";
+    }
+
+    73.859% {
+        content: " D|";
+    }
+
+    74.646% {
+        content: " |";
+    }
+
+
+
+
+
+
+
+    75.7% {
+        content: "  D|";
+    }
+
+    76.487% {
+        content: "  De|";
+    }
+
+    77.274% {
+        content: "  Des|";
+    }
+
+    78.061% {
+        content: "  Desi|";
+    }
+
+    79.848% {
+        content: "  Desig|";
+    }
+
+    80.635% {
+        content: "  Design|";
+    }
+
+    82.422% {
+        content: "  Designe|";
+    }
+
+    84.209% {
+        content: "  Designer|";
+    }
+
+    84.996% {
+        content: "  Designer|";
+    }
+
+    86.783% {
+        content: "  Designer";
+    }
+
+    86.57% {
+        content: "  Designer|";
+    }
+
+    88.357% {
+        content: "  Designer";
+    }
+
+    89.144% {
+        content: "  Designer|";
+    }
+
+    90.931% {
+        content: "  Designer|";
+    }
+
+    92.718% {
+        content: "  Designe|";
+    }
+
+    94.505% {
+        content: "  Design|";
+    }
+
+    96.292% {
+        content: "  Desig|";
+    }
+
+    98.079% {
+        content: "  Desi|";
+    }
+
+    98.866% {
+        content: "  Des|";
+    }
+
+    99.653% {
+        content: "  De|";
+    }
+
+    100% {
+        content: "  D|";
+    }
+
+}
+ 
+.home h1{
+font-size: 60px;
+}
+.home .h-10,.w-10{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.379);
+}
+
+/* about */
+.about .gg {
+    position: relative;
+}
+
+.about .image::after {
+    content: " ";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -15px;
+    bottom: -30px;
+    background-image: url(img/img/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+
+}
+.btn2,.btn1{
+    border:black solid 1px;
+}
+.progress-bar {
+    background-color: black;
+    border-radius: 5px;
+   animation: animation-progress 1s;
+   
+}
+@keyframes animation-progress{
+   0%{ width: 0px ;};
+   1%{ width: 10% ;};
+   2%{ width: 20% ;};
+   3%{ width: 30% ;};
+}
+
+.progress {
+    
+    --bs-progress-height: 1.5rem;
+    --bs-progress-font-size: .9rem;
+
+}
+
+.about .btn1 {
+
+    transition: all 1s;
+}
+
+.about .btn1:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.about .btn2 {
+    transition: all 1s;
+}
+
+.about .btn2:hover {
+    background-color: black;
+    color: white;
+}
+
+/* services/ */
+
+.services {
+    background-color: var(--main-color);
+ 
+   
+}
+.services .icon {
+
+    background-color: var(--main-color);
+    transition: all 0.5s;
+    }
+   .services  .shad:hover .icon {
+        background-color: black;
+        color: white;
+    }
+.services .w-40,
+.h-40 {
+    width: 70px;
+    height: 70px;
+}
+.title h3{
+    z-index: 2;
+   position: relative;
+    
+}
+.title h3::before{
+   
+    content: "";
+    width: 10%;
+    height: 30px;
+    background-image: url(img/img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left:45% ;
+    z-index: -1;
+ 
+    
+}
+/* protfolio */
+ .portfolio .nav-link{
+    position: relative;
+}
+.portfolio .nav-link.active::after{
+    content: " ";
+    width:60%;
+    height: 2px;
+    background-color:black;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+
+}
+
+
+
+.protfolio-item {
+    position: relative;
+
+
+}
+
+
+.protfolio-layer {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.926);
+    opacity: 0;
+    transition: all 1s;
+
+}
+
+.protfolio-item:hover .protfolio-layer {
+    opacity: 1;
+
+}
+
+.protfolio-item:hover {
+
+    border: #9f9898df 5px solid;
+}
+
+.i-protfolio .w-10,
+.h-10 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+.nav-pills .nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: black;
+    background-color: white;
+}
+
+/* Testimonials. */
+.Testimonials .w-20,.h-20{
+    width: 120px;
+    height: 120px;
+}
+.Testimonials {
+    background-color: var(--main-color);
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    background-color: grey;
+    width: 12px;
+    height: 12px;
+
+}
+
+.numbers .number-850::after {
+    content: "850";
+    font-size: 2rem;
+    line-height: 3rem;
+    animation: number-850 2s;
+}
+
+@keyframes number-850 {
+    0% {
+        content: "0";
+    }
+
+    1% {
+        content: "25";
+    }
+
+    2% {
+        content: "50";
+    }
+
+    3% {
+        content: "75";
+    }
+
+    4% {
+        content: "100";
+    }
+
+    5% {
+        content: "125";
+    }
+
+    6% {
+        content: "150";
+    }
+
+    7% {
+        content: "175";
+    }
+
+    8% {
+        content: "200";
+    }
+
+    9% {
+        content: "225";
+    }
+
+    10% {
+        content: "250";
+    }
+
+    11% {
+        content: "275";
+    }
+
+    12% {
+        content: "300";
+    }
+
+    13% {
+        content: "325";
+    }
+
+    14% {
+        content: "350";
+    }
+
+    15% {
+        content: "375";
+    }
+
+    16% {
+        content: "400";
+    }
+
+    17% {
+        content: "425";
+    }
+
+    18% {
+        content: "450";
+    }
+
+    19% {
+        content: "475";
+    }
+
+    20% {
+        content: "500";
+    }
+
+    21% {
+        content: "525";
+    }
+
+    22% {
+        content: "550";
+    }
+
+    23% {
+        content: "575";
+    }
+
+    24% {
+        content: "600";
+    }
+
+    25% {
+        content: "625";
+    }
+
+    26% {
+        content: "650";
+    }
+
+    27% {
+        content: "700";
+    }
+
+    28% {
+        content: "750";
+    }
+
+    29% {
+        content: "800";
+    }
+
+    30% {
+        content: "850";
+    }
+}
+
+.numbers .number-230::after {
+    content: "230";
+    font-size: 2rem;
+    line-height: 3rem;
+    animation: number-230 2s;
+}
+
+@keyframes number-230 {
+    0% {
+        content: "0";
+    }
+
+    1% {
+        content: "10";
+    }
+
+    2% {
+        content: "20";
+    }
+
+    3% {
+        content: "30";
+    }
+
+    4% {
+        content: "40";
+    }
+
+    5% {
+        content: "50";
+    }
+
+    6% {
+        content: "60";
+    }
+
+    7% {
+        content: "70";
+    }
+
+    8% {
+        content: "80";
+    }
+
+    9% {
+        content: "90";
+    }
+
+    10% {
+        content: "100";
+    }
+
+    11% {
+        content: "110";
+    }
+
+    12% {
+        content: "120";
+    }
+
+    13% {
+        content: "130";
+    }
+
+    14% {
+        content: "140";
+    }
+
+    15% {
+        content: "150";
+    }
+
+    16% {
+        content: "160";
+    }
+
+    17% {
+        content: "170";
+    }
+
+    18% {
+        content: "180";
+    }
+
+    19% {
+        content: "190";
+    }
+
+    20% {
+        content: "200";
+    }
+
+    21% {
+        content: "200";
+    }
+
+    22% {
+        content: "210";
+    }
+
+    23% {
+        content: "210";
+    }
+
+    24% {
+        content: "210";
+    }
+
+    25% {
+        content: "215";
+    }
+
+    26% {
+        content: "220";
+    }
+
+    27% {
+        content: "222";
+    }
+
+    28% {
+        content: "223";
+    }
+
+    29% {
+        content: "225";
+    }
+
+    30% {
+        content: "230";
+    }
+}
+
+.numbers .number-9450::after {
+    content: "9450";
+    font-size: 2rem;
+    line-height: 3rem;
+    animation: number-9450 2s;
+}
+
+@keyframes number-9450 {
+    0% {
+        content: "0";
+    }
+
+    1% {
+        content: "100";
+    }
+
+    2% {
+        content: "200";
+    }
+
+    3% {
+        content: "300";
+    }
+
+    4% {
+        content: "400";
+    }
+
+    5% {
+        content: "500";
+    }
+
+    6% {
+        content: "1000";
+    }
+
+    7% {
+        content: "1555";
+    }
+
+    8% {
+        content: "2000";
+    }
+
+    9% {
+        content: "2222";
+    }
+
+    10% {
+        content: "3299";
+    }
+
+    11% {
+        content: "3555";
+    }
+
+    12% {
+        content: "4322";
+    }
+
+    13% {
+        content: "5109";
+    }
+
+    14% {
+        content: "6234";
+    }
+
+    15% {
+        content: "6344";
+    }
+
+    16% {
+        content: "6788";
+    }
+
+    17% {
+        content: "7100";
+    }
+
+    18% {
+        content: "7200";
+    }
+
+    19% {
+        content: "7333";
+    }
+
+    20% {
+        content: "7999";
+    }
+
+    21% {
+        content: "8100";
+    }
+
+    22% {
+        content: "8222";
+    }
+
+    23% {
+        content: "8500";
+    }
+
+    24% {
+        content: "8654";
+    }
+
+    25% {
+        content: "9000";
+    }
+
+    26% {
+        content: "9200";
+    }
+
+    27% {
+        content: "9222";
+    }
+
+    28% {
+        content: "9333";
+    }
+
+    29% {
+        content: "9400";
+    }
+
+    30% {
+        content: "9450";
+    }
+}
+
+.numbers .number-780::after {
+    content: "780";
+    font-size: 2rem;
+    line-height: 3rem;
+    animation: number-780 2s;
+}
+
+@keyframes number-780 {
+    0% {
+        content: "0";
+    }
+
+    1% {
+        content: "10";
+    }
+
+    2% {
+        content: "20";
+    }
+
+    3% {
+        content: "30";
+    }
+
+    4% {
+        content: "40";
+    }
+
+    5% {
+        content: "50";
+    }
+
+    6% {
+        content: "60";
+    }
+
+    7% {
+        content: "70";
+    }
+
+    8% {
+        content: "80";
+    }
+
+    9% {
+        content: "90";
+    }
+
+    10% {
+        content: "100";
+    }
+
+    11% {
+        content: "110";
+    }
+
+    12% {
+        content: "222";
+    }
+
+    13% {
+        content: "250";
+    }
+
+    14% {
+        content: "266";
+    }
+
+    15% {
+        content: "300";
+    }
+
+    16% {
+        content: "333";
+    }
+
+    17% {
+        content: "444";
+    }
+
+    18% {
+        content: "500";
+    }
+
+    19% {
+        content: "600";
+    }
+
+    20% {
+        content: "610";
+    }
+
+    21% {
+        content: "620";
+    }
+
+    22% {
+        content: "640";
+    }
+
+    23% {
+        content: "650";
+    }
+
+    24% {
+        content: "700";
+    }
+
+    25% {
+        content: "711";
+    }
+
+    26% {
+        content: "722";
+    }
+
+    27% {
+        content: "732";
+    }
+
+    28% {
+        content: "755";
+    }
+
+    29% {
+        content: "760";
+    }
+
+    30% {
+        content: "780";
+    }
+}
+/* Blog */
+.Blog{
+    background-color: var(--main-color);
+}
+.Blog .div-image{
+    overflow: hidden;
+}
+.Blog img{
+transition: all 1s;
+}
+.Blog img:hover{
+    transform: scale(1.2);
+}
+/* contact */
+ .Contact .icon {
+
+background-color: var(--main-color);
+transition: all 0.5s;
+}
+ .Contact .icon:hover {
+    background-color: black;
+    color: white;
+}
+.Contact .w-40,.h40{
+width: 60px;
+height: 60px;
+}
+.Contact .w-60{
+    width: 65%;
+}
+.Contact input{
+    background-color: var(--main-color);
+}
+.Contact textarea {
+   background-color: var(--main-color); 
+}
+.Contact .w-15{
+    width: 130px;
+    background-color: black;
+    color: white;
+    transition: all 1s;
+}
+.Contact .w-15:hover{
+    background-color: white;
+    color:black;
+}
+
+
